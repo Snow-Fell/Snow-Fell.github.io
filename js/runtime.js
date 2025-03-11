@@ -32,6 +32,6 @@ setInterval(() => {
     if (time[0] != 0) {
         currentTimeHtml += time[0] + ' YEAR '
     }
-    currentTimeHtml += time[1] + ' DAYS ' + time[2] + ' : ' + time[3] + ' : ' + time[4];
-    document.getElementById("runtime").innerHTML = currentTimeHtml;
+    currentTimeHtml += time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒 ';
+    document.getElementById("runtime").innerHTML = "本站已运行: "+currentTimeHtml;
 }, 1000);
