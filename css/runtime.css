@@ -1,4 +1,5 @@
 div#runtime {
+    margin: 0 auto;
     width: fit-content;
     color: #fff;
     padding: 0 10px;

@@ -33,5 +33,5 @@ setInterval(() => {
         currentTimeHtml += time[0] + ' YEAR '
     }
     currentTimeHtml += time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒 ';
-    document.getElementById("runtime").innerHTML = "本站已运行: "+currentTimeHtml;
+    document.getElementById("runtime").innerHTML = "本站运行了 "+currentTimeHtml+"啦!";
 }, 1000);
